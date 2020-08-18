@@ -32,6 +32,9 @@
 #define LOW  GPIO_PIN_RESET     //低电平
 
 
+#define ON  HIGH	              //开
+#define OFF LOW	                //关
+
 #define CW  HIGH                //顺时针
 #define CCW LOW                 //逆时针
 
