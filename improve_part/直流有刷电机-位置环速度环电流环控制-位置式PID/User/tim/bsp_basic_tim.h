@@ -16,7 +16,7 @@
 //定时器时钟源TIMxCLK = 2 * PCLK1  
 //				PCLK1 = HCLK / 4 
 //				=> TIMxCLK=HCLK/2=SystemCoreClock/2=84MHz
-#define BASIC_PRESCALER_COUNT   (1680)
+#define BASIC_PRESCALER_COUNT   (2160)
 
 /* 获取定时器的周期，单位ms */
 //#define __HAL_TIM_GET_PRESCALER(__HANDLE__)      ((__HANDLE__)->Instance->PSC)    // Get TIM Prescaler.
