@@ -24,11 +24,11 @@
 #include "./led/bsp_led.h"
 
 // 硬件决定速度的上限，软件算法决定是否可以达到上限
-__IO uint32_t set_speed  = 4000;         // 速度 单位为0.05rad/sec
+__IO uint32_t set_speed  = 2000;         // 速度 单位为0.1rad/sec
 // 加速度和减速度选取一般根据实际需要，值越大速度变化越快，加减速阶段比较抖动
 // 所以加速度和减速度值一般是在实际应用中多尝试出来的结果
-__IO uint32_t accel_val = 500;         // 加速度 单位为0.0.5rad/sec^2
-__IO uint32_t decel_val = 100;         // 减速度 单位为0.05rad/sec^2
+__IO uint32_t accel_val = 200;         // 加速度 单位为0.1rad/sec^2
+__IO uint32_t decel_val = 200;         // 减速度 单位为0.1rad/sec^2
 
 
 
