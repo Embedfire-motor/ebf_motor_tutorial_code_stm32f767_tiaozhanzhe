@@ -65,6 +65,7 @@ static void sd_gpio_config(void)
 	/*调用库函数，使用上面配置的GPIO_InitStructure初始化GPIO*/
   HAL_GPIO_Init(SHUTDOWN_GPIO_PORT, &GPIO_InitStruct);
 	BLDCM_ENABLE_SD();     // 默认开启
+	HAL_Delay(1);
 }
 
 /**
