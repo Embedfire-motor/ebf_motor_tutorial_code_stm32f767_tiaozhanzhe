@@ -59,7 +59,7 @@ void DEBUG_USART_Config(void)
     
     /* ≈‰÷√¥ÆDEBUG_USART ƒ£ Ω */
     UartHandle.Instance = DEBUG_USART;
-    UartHandle.Init.BaudRate = 115200;
+    UartHandle.Init.BaudRate = DEBUG_USART_BAUDRATE;
     UartHandle.Init.WordLength = UART_WORDLENGTH_8B;
     UartHandle.Init.StopBits = UART_STOPBITS_1;
     UartHandle.Init.Parity = UART_PARITY_NONE;
